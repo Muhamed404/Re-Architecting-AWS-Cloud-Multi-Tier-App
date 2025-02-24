@@ -4,6 +4,8 @@
 
 ## Overview
 This repository contains a Java web application deployed on AWS using Elastic Beanstalk with **Apache Tomcat** as the web application server. The architecture ensures scalability, security, and high availability by leveraging various AWS services.
+This project is taken from the Udemy course:([DevOps Projects](https://www.udemy.com/course/devopsprojects/learn/lecture/23898010#reviews)).
+
 
 ## AWS Architecture Components
 
