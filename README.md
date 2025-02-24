@@ -45,9 +45,9 @@ Ensure the following tools are installed and configured:
    vi src/main/resources/application.properties
    ```
    Ensure the correct values for:
-   - Database URL (`spring.datasource.url`)
-   - Message queue (`rabbitmq.host`)
-   - Cache server (`cache.host`)
+   - Database URL (`jdbc.url`)
+   - Message queue (`memcached.active.host`)
+   - Cache server (`rabbitmq.address`)
 
 2. **Package the Application**
    ```sh
@@ -56,10 +56,6 @@ Ensure the following tools are installed and configured:
 
 3. **Deploy the Application**
    - Upload the generated WAR file manually to AWS Elastic Beanstalk using the AWS Management Console.
-   - Configure the environment settings as required in AWS Elastic Beanstalk, ensuring the Tomcat runtime is selected.
-
-## Configuration Management
-Application-specific configurations, such as database credentials and caching settings, are managed using AWS Parameter Store or AWS Secrets Manager instead of environment variables. Ensure your application fetches configurations securely.
 
 ## Monitoring & Logging
 - **AWS CloudWatch Logs**: Stores and analyzes application logs.
