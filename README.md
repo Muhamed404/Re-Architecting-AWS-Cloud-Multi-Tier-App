@@ -1,6 +1,6 @@
 # Java Web Application - AWS Architecture
 
-![AWS Architecture Diagram](architecture-diagram.png)
+![AWS Architecture Diagram](diagram.png)
 
 ## Overview
 This repository contains a Java web application deployed on AWS using Elastic Beanstalk with **Apache Tomcat** as the web application server. The architecture ensures scalability, security, and high availability by leveraging various AWS services.
